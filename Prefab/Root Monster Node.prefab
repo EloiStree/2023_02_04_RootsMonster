@@ -2067,7 +2067,7 @@ GameObject:
   - component: {fileID: 2044307814635469750}
   - component: {fileID: 2057684944028994918}
   m_Layer: 0
-  m_Name: Example Root Monster
+  m_Name: Root Monster Node
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

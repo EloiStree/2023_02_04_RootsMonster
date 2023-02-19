@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4166144159257337298}
   - component: {fileID: 4166144159257337299}
   m_Layer: 0
-  m_Name: Factory Ready
+  m_Name: Monster Root Factory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

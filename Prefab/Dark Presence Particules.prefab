@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5330403807309233929}
   - component: {fileID: 4203749818489738525}
   m_Layer: 0
-  m_Name: darkPresence
+  m_Name: Dark Presence Particules
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
