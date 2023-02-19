@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2044307814192827471, guid: d966a3493de417845bcf9d76675675f4, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2044307814635469738, guid: d966a3493de417845bcf9d76675675f4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -181,18 +177,6 @@ PrefabInstance:
     - target: {fileID: 2044307814635469745, guid: d966a3493de417845bcf9d76675675f4, type: 3}
       propertyPath: m_Name
       value: Example Root Monster
-      objectReference: {fileID: 0}
-    - target: {fileID: 2044307814635469751, guid: d966a3493de417845bcf9d76675675f4, type: 3}
-      propertyPath: m_tick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2044307815084494460, guid: d966a3493de417845bcf9d76675675f4, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2044307815151579369, guid: d966a3493de417845bcf9d76675675f4, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d966a3493de417845bcf9d76675675f4, type: 3}
