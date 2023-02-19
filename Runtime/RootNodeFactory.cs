@@ -12,6 +12,8 @@ public class RootNodeFactory : MonoBehaviour
 
     public static List<Coordonate> InfoPoint = new List<Coordonate>() ;
 
+    public Transform m_whereToCreate;
+
     private void Reset()
     {
         InfoPoint.Add(new Coordonate(FirstPoint.position.x, FirstPoint.position.y, FirstPoint.position.z));
@@ -46,6 +48,7 @@ public class RootNodeFactory : MonoBehaviour
         createdRoot.transform.rotation = lieuRotation;
         if(instance.m_useZeroAsScale)
         createdRoot.transform.localScale = Vector3.zero;
+        createdRoot.transform.parent = instance.m_whereToCreate;
 
 
     }

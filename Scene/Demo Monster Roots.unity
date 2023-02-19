@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &5353529 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4166144159257337298, guid: 235064c23e9c3c2459490599393dcd6f, type: 3}
+  m_PrefabInstance: {fileID: 1924545025}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &798585700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4116648676196727915, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
+      propertyPath: m_Name
+      value: Dark Presence Head
+      objectReference: {fileID: 0}
     - target: {fileID: 4532232208847219156, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -177,6 +186,14 @@ PrefabInstance:
     - target: {fileID: 4532232208847219159, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
       propertyPath: m_Name
       value: Monster Root  Solo Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582980367652147467, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582980367652147467, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db40d23f727db3046b266c9f67faac8e, type: 3}
@@ -464,6 +481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4166144159257337299, guid: 235064c23e9c3c2459490599393dcd6f, type: 3}
+      propertyPath: m_whereToCreate
+      value: 
+      objectReference: {fileID: 5353529}
     - target: {fileID: 4166144159257337300, guid: 235064c23e9c3c2459490599393dcd6f, type: 3}
       propertyPath: m_Name
       value: Monster Root Factory
